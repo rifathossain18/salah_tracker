@@ -1,0 +1,55 @@
+name: salah_tracker
+description: "An offline Salah tracker for the five daily prayers."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+ 
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.6
+  file_picker: ^13.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/icon/logo.png
+
+ 
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/logo.png
+  adaptive_icon_background: "#003c2b"
+  adaptive_icon_foreground: assets/icon/logo.png
+  adaptive_icon_foreground_inset: 0
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: assets/icon/logo.png
+    background_color: "#003c2b"
+    theme_color: "#00543b"
+  windows:
+    generate: true
+    image_path: assets/icon/logo.png
+    icon_size: 256
+  macos:
+    generate: true
+    image_path: assets/icon/logo.png

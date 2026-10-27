@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Green mosque and winding path icon</title>
+  <desc id="desc">Cream mosque silhouette and crescent inside an emerald arch, with a bright green winding path, on a rounded emerald square.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07834f"/>
+      <stop offset="0.48" stop-color="#00543b"/>
+      <stop offset="1" stop-color="#003c2b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="65%">
+      <stop offset="0" stop-color="#08754d" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#002f22" stop-opacity="0.22"/>
+    </radialGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#d5ff58"/>
+      <stop offset="0.45" stop-color="#63dc5d"/>
+      <stop offset="1" stop-color="#00a878"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf4"/>
+      <stop offset="1" stop-color="#f1ead8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <!-- Outer pointed arch -->
+  <path d="M223 758 V474 C223 358 300 282 399 222 C444 195 480 166 512 120 C544 166 580 195 625 222 C724 282 801 358 801 474 V758 L771 731 V475 C771 384 706 322 612 266 C571 242 536 216 512 185 C488 216 453 242 412 266 C318 322 253 384 253 475 V731 Z" fill="url(#cream)"/>
+  <!-- Mosque body and dome -->
+  <path d="M335 696 V594 Q335 585 345 585 H374 C373 536 405 501 455 468 Q493 443 512 421 Q531 443 569 468 C619 501 651 536 650 585 H679 Q689 585 689 594 V696 L632 666 V612 H392 V666 Z" fill="url(#cream)"/>
+  <!-- Central doorway cut-out -->
+  <path d="M452 653 V603 C452 565 478 542 512 518 C546 542 572 565 572 603 V653 Z" fill="#004a34"/>
+  <!-- Crescent and finial -->
+  <path d="M507 259 C468 271 447 309 461 346 C475 384 521 397 553 372 C535 401 493 411 461 388 C423 360 423 307 456 278 C472 264 490 258 507 259 Z" fill="url(#cream)"/>
+  <path d="M508 374 H516 V403 H508 Z" fill="url(#cream)"/>
+  <circle cx="512" cy="410" r="14" fill="url(#cream)"/>
+  <!-- Winding path leading to the doorway -->
+  <path d="M220 878 C268 814 332 780 404 749 C474 719 520 704 525 675 C530 646 481 636 465 632 C535 627 619 648 662 687 C712 732 699 779 665 823 L626 878 H412 C447 826 485 792 530 763 C568 739 599 719 591 700 C583 681 551 671 528 666 C540 690 514 713 470 735 C402 768 333 804 307 878 Z" fill="url(#road)"/>
+  <!-- Dark separation between the two road ribbons -->
+  <path d="M327 878 C359 831 419 797 474 769 C529 741 568 719 559 698 C554 685 539 675 528 666 C570 680 595 698 590 718 C584 741 549 760 511 783 C466 811 435 844 412 878 Z" fill="#004a34"/>
+</svg>
